@@ -1,7 +1,7 @@
 {
   "project": "领榜 IM 原型",
   "repository": "17611185912l-cmd/lingbang-IM",
-  "publishedAt": "2026-11-13T10:34:20+08:00",
+  "publishedAt": "2026-11-13T13:38:05+08:00",
   "basePath": "/lingbang-IM/",
   "chatMessages": 15,
   "robotLabels": 5,
@@ -11,9 +11,30 @@
     "交易通知",
     "订单通知"
   ],
+  "chatPerspectives": [
+    "用户视角",
+    "顾问视角"
+  ],
+  "userAttachments": [
+    "图片",
+    "需求单",
+    "订单",
+    "老师"
+  ],
+  "adviserAttachments": [
+    "图片",
+    "老师"
+  ],
+  "teacherFilters": [
+    "科目",
+    "区域",
+    "老师类型",
+    "授课方式"
+  ],
+  "cardDetails": "已跳转至详情",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "README.md": "369908e7f4f22c26cf57af7c728df59ac30c63b6a12bd52e96b9f2bb1dd32d3f",
+    "README.md": "5904829e7d9eaa604ef68122d5bcca0c42516499bede7aa967043e771a0faef8",
     "assets/android/Keyboard.png": "6085e50be17ca2705b4351283187be2c5b01b58262c70b90d74b3376efb4adfe",
     "assets/android/Pixel10.png": "a87c1250ba20756f5d020b5351a7ae71d663dcfc64aca3a1cd56452e8a05233e",
     "assets/android/navigation-bar.svg": "077a782a3b6c2915fc518dfb4bba825c8c5861b2572f9522a7024902b9cb2850",
@@ -32,8 +53,8 @@
     "assets/brand/home-support-portrait.png": "89b968da3f1ffb2fd7c42acc83dc1757cce2a3a17b5cb1bace88169d29e2e23f",
     "assets/brand/home-zhu-portrait.png": "79ccd466f2cbb370f118045b9ac9b6b33a0ea5fb3292fd3e27d58416b4415e18",
     "assets/brand/mini-close.svg": "208eeacd7a0a01e9fedcf0dd3db104495c54a904de6b667a6c5adebf2ff3d0af",
-    "assets/index-G6dhfqGB.js": "4b8fdef6778d0801f0960c92bcd09c7c75ccbca21008b22635ab579be8143028",
-    "assets/index-IgFiYosk.css": "7071fb9dbdd6e7ddfcdfdc7f5726f21965b7a3f6437dfa9e8b05ed441fbc4c18",
+    "assets/index-BTh8OU1m.js": "4ab579fde9b6f949e94bec292f6137418e018657a0835ccf27a14da236edbd37",
+    "assets/index-DA3JEYgD.css": "3ce53d4f2c13b10b20241a8220e2d557755699d3caf7c9e49aec7970c0a14fb3",
     "assets/iphone/Bezel.png": "ee2514d74d2f75f3541405fa2f20811f159879a66586778cfd8c9c84c44959df",
     "assets/iphone/Keyboard.png": "292e2d83d69adaeb663d6a840ce8db8d0a5257710b472c20713e03f56b08ea88",
     "assets/messages/chat-self-avatar.png": "ee2eb7d44556967d2323397977ecf442169b7687ea71a176c76e0b5a57896fd1",
@@ -47,6 +68,6 @@
     "assets/roboto-latin-500-normal-DQZyH_nt.woff": "b9c3346f0ae869eee449c94a182d90b100f253d916827785577887d03eff51db",
     "assets/status/ios-status-icons.svg": "40e218b274d0973d519b50f42884e6e05ef0f2b6a0e46e102fda54218784466d",
     "assets/status/status-icons.svg": "1a8bd4207cf34532ae514bdcdca693acc9a2b8ebc9d3182dc163c3e9ddcc4823",
-    "index.html": "0fb2a5881c03469115f7b291d451461c18753591287ea9b2f1cdb8e91ee2c891"
+    "index.html": "f60f045a8dd8fc30be52aa8903b110092691115a6722b342f319663b44b5bb6c"
   }
 }

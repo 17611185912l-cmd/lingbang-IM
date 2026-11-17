@@ -1,10 +1,10 @@
 {
   "project": "领榜 IM 原型",
   "repository": "17611185912l-cmd/lingbang-IM",
-  "publishedAt": "2026-11-13T13:38:05+08:00",
+  "publishedAt": "2026-11-17T10:30:39+08:00",
   "basePath": "/lingbang-IM/",
-  "chatMessages": 15,
-  "robotLabels": 5,
+  "chatMessages": 0,
+  "robotLabels": 0,
   "notificationTypes": [
     "系统通知",
     "服务通知",
@@ -31,10 +31,30 @@
     "老师类型",
     "授课方式"
   ],
-  "cardDetails": "已跳转至详情",
+  "cardDetails": {
+    "老师": "教师详情",
+    "需求单": "已跳转至详情",
+    "订单": "已跳转至详情"
+  },
+  "consultationOpening": [
+    "家长自动发送当前老师卡片",
+    "顾问自动发送欢迎语"
+  ],
+  "wechatQr": "演示二维码，支持长按演示识别，不能添加真实好友",
+  "prototypeGuide": {
+    "html": "prototype-guide.html",
+    "markdown": "prototype-guide.md",
+    "sections": "prototype-guide-sections.json",
+    "sourceSha256": "827aea8b739711aa480d58dc589e859d76699cc70835c66493653714337a749d"
+  },
+  "knownIssues": [
+    "较矮窗口顾问键盘挤压聊天区",
+    "顾问返回消息列表入口名称仍显示芦顾问",
+    "阅读历史时打开工具会滚动到底部"
+  ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "README.md": "5904829e7d9eaa604ef68122d5bcca0c42516499bede7aa967043e771a0faef8",
+    "README.md": "441604a7e6bc1ab15012c57ddb00a16cb6fba2371d794fa144fdad8e8451f305",
     "assets/android/Keyboard.png": "6085e50be17ca2705b4351283187be2c5b01b58262c70b90d74b3376efb4adfe",
     "assets/android/Pixel10.png": "a87c1250ba20756f5d020b5351a7ae71d663dcfc64aca3a1cd56452e8a05233e",
     "assets/android/navigation-bar.svg": "077a782a3b6c2915fc518dfb4bba825c8c5861b2572f9522a7024902b9cb2850",
@@ -53,10 +73,11 @@
     "assets/brand/home-support-portrait.png": "89b968da3f1ffb2fd7c42acc83dc1757cce2a3a17b5cb1bace88169d29e2e23f",
     "assets/brand/home-zhu-portrait.png": "79ccd466f2cbb370f118045b9ac9b6b33a0ea5fb3292fd3e27d58416b4415e18",
     "assets/brand/mini-close.svg": "208eeacd7a0a01e9fedcf0dd3db104495c54a904de6b667a6c5adebf2ff3d0af",
-    "assets/index-BTh8OU1m.js": "4ab579fde9b6f949e94bec292f6137418e018657a0835ccf27a14da236edbd37",
-    "assets/index-DA3JEYgD.css": "3ce53d4f2c13b10b20241a8220e2d557755699d3caf7c9e49aec7970c0a14fb3",
+    "assets/index-CRhfqyXN.css": "9d1a054b1016c99139dacb87343b8a5eea4908549c3ded6e3ad9920f3c050e4a",
+    "assets/index-DX_bFWpe.js": "a635c26eeda3e7dfccba00ddc01d2394458e5ec80533dca896c94235968f6775",
     "assets/iphone/Bezel.png": "ee2514d74d2f75f3541405fa2f20811f159879a66586778cfd8c9c84c44959df",
     "assets/iphone/Keyboard.png": "292e2d83d69adaeb663d6a840ce8db8d0a5257710b472c20713e03f56b08ea88",
+    "assets/messages/adviser-wechat-demo.png": "e1119f833683e53dd6dd5792bb049a14b41d61bbccff9411a2fb99a17694231b",
     "assets/messages/chat-self-avatar.png": "ee2eb7d44556967d2323397977ecf442169b7687ea71a176c76e0b5a57896fd1",
     "assets/messages/lu-teacher.png": "35dbedabcf2b962edf9d56ae24eacce7d739c9ce5bed7058ce6ebdfd4fcf8412",
     "assets/messages/nav-home.png": "6fe3a3bcfcc618662f3d3bc68c5f65fcf801896f77c5acb473c6766ca5a99473",
@@ -68,6 +89,11 @@
     "assets/roboto-latin-500-normal-DQZyH_nt.woff": "b9c3346f0ae869eee449c94a182d90b100f253d916827785577887d03eff51db",
     "assets/status/ios-status-icons.svg": "40e218b274d0973d519b50f42884e6e05ef0f2b6a0e46e102fda54218784466d",
     "assets/status/status-icons.svg": "1a8bd4207cf34532ae514bdcdca693acc9a2b8ebc9d3182dc163c3e9ddcc4823",
-    "index.html": "f60f045a8dd8fc30be52aa8903b110092691115a6722b342f319663b44b5bb6c"
+    "assets/teacher-detail/academy.png": "af53e72997e79b5ae66d947547a947c0c602abf137de44b301be26f5f05cc996",
+    "assets/teacher-detail/wechat-share.png": "cbe59ff479014e6a821294025531ae5e488f43193e22f873134b081bd1139cdf",
+    "index.html": "e6fe116885dcb65e6d956aac214d6b66b3cfe85d224d85897fd90d2f6bde5e29",
+    "prototype-guide-sections.json": "ea3b6fef213dbca5ecefb7680e8f29c399a631830bb16f3105a94932921462f3",
+    "prototype-guide.html": "54322123557558d0d47c23e05af309f7f168bc601a92b4e8d4bd50fdb63b4cee",
+    "prototype-guide.md": "827aea8b739711aa480d58dc589e859d76699cc70835c66493653714337a749d"
   }
 }
